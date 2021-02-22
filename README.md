@@ -13,8 +13,8 @@ Replicate Piet Mondrian's painting *[No. VI / Composition No. II](https://www.ar
 - You may not use images or SVGs.
 - You may not use 3rd-party libraries.
 - The code should work in the latest version of Chrome.
-- Above 400px wide, the composition should resemble the painting.
-- Below 400px wide the composition should be a single column of color blocks in with all similar colors grouped together.
+- Above 600px wide, the composition should resemble the painting.
+- Below 600px wide, the composition should be a single column of rectangles with all similar colors grouped together.
 - Hit it with the pretty stick; personalize the composition with some tasteful visual flair.
 
 ## Intructions
