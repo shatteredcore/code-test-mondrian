@@ -9,7 +9,7 @@ Replicate Piet Mondrian's painting *[No. VI / Composition No. II](https://www.ar
 
 ## Requirements
 
-- You must complete the challenge within 2 hours of receiving this link.
+- You must complete the challenge within 4 hours of receiving this link.
 - You may not use images or SVGs.
 - You may not use 3rd-party libraries.
 - The code should work in the latest version of Chrome.
