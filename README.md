@@ -17,7 +17,7 @@ Replicate Piet Mondrian's painting *[No. VI / Composition No. II](https://www.ar
 - Below 600px wide, the composition should be a single column of all the rectangles with all similar colors grouped together.
 - Hit it with the pretty stick; personalize the composition with some tasteful visual flair.
 
-## Intructions
+## Instructions
 - Fork this repo to a private repo your own GitHub account.
 - Complete the challenge.
 - Push your solution to your private repo.
