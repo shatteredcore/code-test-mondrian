@@ -1,0 +1,92 @@
+.painting-container{
+    max-height:500px;
+  }
+
+  .black{
+    background-color:black;
+  }
+
+  .gray{
+    background-color:gray;
+  }
+
+  .lightgray{
+    background-color:lightgray;
+  }
+
+  .darkblue{
+    background-color:darkblue;
+  }
+
+  .yellow{
+    background-color:yellow;
+  }
+
+  .red{
+    background-color:red;
+  }
+
+  .rect{
+    animation:pulse;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+
+    position:absolute;
+    box-sizing:border-box;
+    border: 1px solid black;
+  }
+
+  @media (max-width:600px){
+    .rect{
+      animation:pulse;
+      animation-duration:5s;
+      animation-iteration-count:infinite;
+      position:relative;
+      box-sizing:border-box;
+      border: 1px solid black;
+
+      margin:auto !important;
+    }
+
+    .painting-container{
+      display:flex;
+      flex-flow:column;
+    }
+  }
+
+  @keyframes pulse{
+      50%{
+          opacity:0.5;
+      }
+  }
+
+  .rect:nth-child(1){animation-delay:4.0s;}
+  .rect:nth-child(2){animation-delay:4.5s;}
+  .rect:nth-child(3){animation-delay:5.0s;}
+  .rect:nth-child(4){animation-delay:5.5s;}
+  .rect:nth-child(5){animation-delay:6.0s;}
+
+  .rect:nth-child(6){animation-delay:6.5s;}
+  .rect:nth-child(7){animation-delay:7.0s;}
+  .rect:nth-child(8){animation-delay:7.5s;}
+  .rect:nth-child(9){animation-delay:8.0s;}
+  .rect:nth-child(10){animation-delay:8.5s;}
+
+  .rect:nth-child(11){animation-delay:9.0s;}
+  .rect:nth-child(12){animation-delay:9.5s;}
+  .rect:nth-child(13){animation-delay:10.0s;}
+  .rect:nth-child(14){animation-delay:10.5s;}
+  .rect:nth-child(15){animation-delay:11.0s;}
+
+  .rect:nth-child(16){animation-delay:11.5s;}
+  .rect:nth-child(17){animation-delay:12.0s;}
+  .rect:nth-child(18){animation-delay:12.5s;}
+  .rect:nth-child(19){animation-delay:13.0s;}
+  .rect:nth-child(20){animation-delay:13.5s;}
+
+  .rect:nth-child(21){animation-delay:14.0s;}
+  .rect:nth-child(22){animation-delay:14.5s;}
+  .rect:nth-child(23){animation-delay:15.0s;}
+  .rect:nth-child(24){animation-delay:15.5s;}
+  .rect:nth-child(25){animation-delay:16.0s;}
+  .rect:nth-child(26){animation-delay:16.5s;}
